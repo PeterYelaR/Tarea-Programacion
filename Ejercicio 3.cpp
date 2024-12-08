@@ -1,6 +1,6 @@
-//3) Crea un programa que solicite al usuario ingresar 10 n˙meros enteros en un vector. 
-//Calcula la media de los valores y luego, usando un bucle, calcula la desviaciÛn 
-//est·ndar de los valores. Muestra la media y la desviaciÛn est·ndar.
+//3) Crea un programa que solicite al usuario ingresar 10 n√∫meros enteros en un vector. 
+//Calcula la media de los valores y luego, usando un bucle, calcula la desviaci√≥n 
+//est√°ndar de los valores. Muestra la media y la desviaci√≥n est√°ndar.
 #include <iostream>
 #include <cmath>
 using namespace std;
