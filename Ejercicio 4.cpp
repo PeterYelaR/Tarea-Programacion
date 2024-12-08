@@ -1,5 +1,5 @@
-//4) Escribe un programa que solicite al usuario ingresar 10 números enteros y los almacene 
-//en un vector. Usa un bucle for y una estructura de decisión para revisar cada número 
+//4) Escribe un programa que solicite al usuario ingresar 10 nÃºmeros enteros y los almacene 
+//en un vector. Usa un bucle for y una estructura de decisiÃ³n para revisar cada nÃºmero 
 //y, si es negativo, reemplazarlo con un 0. Al final, muestra el vector modificado.
 #include <iostream>
 using namespace std;
