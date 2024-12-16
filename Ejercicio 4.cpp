@@ -6,14 +6,14 @@ using namespace std;
 
 void calcularNegativo(int numero[10]){
 	for(int i = 0; i < 10; i++){
-		if(numero[i] < 0){
-			numero[i] = 0;
+		if(numero[i] < 0){  // Verifica si el número es negativo
+			numero[i] = 0;   // Reemplaza el número negativo por 0
 		}
 	}
 	cout << "Array actualizado: ";
 	for(int i = 0; i < 10; i++){
 		
-		cout  <<numero[i] << " " ;
+		cout  <<numero[i] << " " ; // Muestra el array modificado
 	}
 }
 
@@ -25,7 +25,7 @@ int main(){
 		
 	}
 	
-	calcularNegativo(numero);
+	calcularNegativo(numero); // Llama a la función para procesar los números
 	
 	system("pause");
 	return 0;
