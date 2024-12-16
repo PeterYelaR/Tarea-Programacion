@@ -16,12 +16,12 @@ int main (){
 			}
 		} while (numero[i] < 1 || numero[i] > 5);
 		
-		contador[numero[i]-1]++;
+		contador[numero[i]-1]++;  // Incrementa el contador del número ingresado
 	}
 	
 	cout << "\nFrecuencia de los numeros ingresados:\n";
     for (int i = 0; i < 5; i++) {
-        cout << "Numero " << i + 1 << ": " << contador[i] << " veces" << endl;
+        cout << "Numero " << i + 1 << ": " << contador[i] << " veces" << endl; // Muestra la frecuencia de cada número
     }
 	
 	system("pause");
