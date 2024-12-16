@@ -11,16 +11,16 @@ int main(){
 	for (int i = 0; i < 20; i++){
 		cout << "Ingrese la calificacion del estudiante numero " << i + 1 << ": ";
 		cin >> calificacion[i];
-		if(calificacion[i] <= 5){
+		if(calificacion[i] <= 5){  // Clasifica calificaciones en el rango 0 a 5
 			rango[0]++;
-		} else if(calificacion[i] <= 8){
+		} else if(calificacion[i] <= 8){  // Clasifica calificaciones en el rango 6 a 8
 			rango[1]++;
-		} else   rango[2]++;
+		} else   rango[2]++;  // Clasifica calificaciones en el rango 9 a 10
 	}
 	
-	cout << "Estudiantes en el rango de calificaciones de 0 a 5: " << rango[0] << endl;
-	cout << "Estudiantes en el rango de calificaciones de 6 a 8: " << rango[1] << endl;
-	cout << "Estudiantes en el rango de calificaciones de 9 a 10: " << rango[2] << endl;
+	cout << "Estudiantes en el rango de calificaciones de 0 a 5: " << rango[0] << endl; // Muestra estudiantes en rango 0 a 5
+	cout << "Estudiantes en el rango de calificaciones de 6 a 8: " << rango[1] << endl;  // Muestra estudiantes en rango 6 a 8
+	cout << "Estudiantes en el rango de calificaciones de 9 a 10: " << rango[2] << endl;  // Muestra estudiantes en rango 9 a 10
 	
 	system("pause");
 	return 0;
